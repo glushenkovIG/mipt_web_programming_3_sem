@@ -1,0 +1,69 @@
+#test{
+	background: #ffbfa3;
+}
+
+.root{
+	background: #89ff49;
+	overflow: auto;
+}
+
+#my_ul{
+	background: #89ffc4;
+	border-radius: 12px;
+	overflow: auto;
+	width: 50%;
+}
+
+#task{
+	background: #cdff5b;
+	border-radius: 5px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	width: 90%;
+	overflow: auto;
+}
+
+#task_text{
+	margin-left: 5px;
+	width: 70%;
+}
+.left{
+	float: left;
+	width: 30%;
+}
+
+.right{
+	float: right;
+	width: 20%;
+}
+
+#del_task {
+	height: 20px;
+	width: 60px;
+	background: #ff2d11;
+	border-radius: 8px;
+	font-size: 11px;
+	float: right;
+	margin-right: 10px;
+}	
+
+#add_task_input{
+	width: 30%;
+	float: left;
+	height: 30px;
+	border-radius: 10px;
+	background: #c4ffac
+}
+
+#add_task{
+	float: left;
+	margin-left: 10px;
+	height: 30px;
+	width: 70px;
+	background: #7cfff7;
+	border-radius: 8px;
+	font-size: 11px;
+}
