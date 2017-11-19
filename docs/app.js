@@ -1,6 +1,6 @@
 function GetTextFromTask(Input){
 	if (!Input.value) {
-		return 'Сделать задание номер #3 по web-программированию';
+		return 'Сделать задание #3 по web-программированию';
 	};
 	return Input.value;
 }
