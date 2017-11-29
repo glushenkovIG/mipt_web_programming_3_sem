@@ -1,18 +1,16 @@
 
 package main
-import "fmt"
-
-var ans int = 1
-/*
+/*import "fmt"
 func main(){
 	input := []int{0, 3, 2, 5}
 	result := RemoveEven(input)
 	fmt.Println(result) // Должно напечататься [3 5]
 	gen := PowerGenerator(2)
+	gon := PowerGenerator(3)
 	fmt.Println(gen()) // Должно напечатать 2
+	fmt.Println(gon()) // Должно напечатать 3
 	fmt.Println(gen()) // Должно напечатать 4
-	fmt.Println(gen()) // Должно напечатать 8
-
+	fmt.Println(gon()) // Должно напечатать 9
 	fmt.Println(DifferentWordsCount("Hello, world!HELLO  wOrlD...12"))
 	// Должно напечатать 2
 
@@ -30,6 +28,7 @@ func RemoveEven(input []int) []int{
 }
 
 func PowerGenerator(a int) func() int {
+	ans := 1
 	return func() int {
 		ans = ans * a
 		return ans
